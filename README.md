@@ -2,6 +2,8 @@
 
 
 # building
+
+following just one method is enough  you need to
 ## makefile
  ![image](https://github.com/mohammedaouamri5/TP-SI/assets/131393044/bb895efd-0f39-498f-8942-609b63369984)
 change `Makefile` according to your Progresql location   
