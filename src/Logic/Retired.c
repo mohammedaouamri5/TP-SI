@@ -1,7 +1,9 @@
 #include "Retired.h"
 #include "Person.h"
 #include ".\..\Logic\Calculate.h"
-
+#ifndef min
+#define min(a,b) (((a) < (b)) ? (a) : (b))
+#endif 
 void PrintRetired(Retired *retired, const char *fmt)
 {
 

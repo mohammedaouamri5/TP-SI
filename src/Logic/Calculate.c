@@ -1,7 +1,9 @@
 
-
+#include "stdlib.h"
 #include "Calculate.h"
-
+#ifndef min
+#define min(a,b) (((a) < (b)) ? (a) : (b))
+#endif 
 float MIN(float x, float y){
     if (x < y)
         return x;

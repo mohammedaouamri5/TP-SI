@@ -17,4 +17,4 @@ typedef struct Retired
 
 void PrintRetired(Retired *This, const char *fmt);
 void ScanRetired(Retired *This);
-int PersonTestForRetired(Person *person, int * CanGetMoney);
+int PersonTestForRetired(Person *person );
